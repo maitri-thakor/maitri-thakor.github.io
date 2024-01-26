@@ -53,14 +53,9 @@ menu {
   position: relative;
   left: 100px;
 }
-
-/* nav {
-  display: block;
-} */
-/* nav ul {
-  margin: 0;
+.navbar li {
   display: inline-block;
-} */
+}
 
 ul {
   font-size: 1.2rem;
@@ -86,24 +81,3 @@ li {
     color: #000000;
   }
 }
-
-/* a:-webkit-any-link { */
-/* color: -webkit-link; */
-/* cursor: pointer; */
-/* text-decoration: underline; */
-/* }
-
-
-/* h1 {
-  color: blue;
-  background-color: yellow;
-  border: 1px solid black;
-}
-/*Create Test HTML here */
-/* p {
-  color: red;
-}
-.outer {
-  border: 5px solid black;
-}
- */

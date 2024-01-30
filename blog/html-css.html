@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/main.css" />
     <title>Welcome To CSS Concepts  </title>
   </head>
-  &nbsp;
+ 
   <body>
     <div class="header">
       
@@ -20,6 +20,7 @@
       <h2>Welcome To Maitri Blog</h2>
       <br>
     </div>
+    &nbsp;
     <div id="menu">
 
       <nav class="navbar">
@@ -56,26 +57,108 @@
   </div>
   </div>
   <div id="welcome-page">
-    <h1></h1>
-    <h2>
-     
-      <em>
-       
-      </em>
-      
-    </h2>
-    <h3></h3>
+    <h1><u>Classes vs. Ids</u></h1>
+<p>
+  &bull; Class and Id both are the CSS element selectors and are used to identify an element based on its assigned name. CSS id and class selectors are the most used selectors in CSS.
+</p>
+<p><b>&bull; The difference between the id and class is tabulated as follows.</b></p>
+    <table>
+      <tr>
+        <td><b>Classes</b></th>
+        <td><b>Ids</b></td>
+      </tr>
+      <tr>
+        <td>We can apply a class to various elements so that it could be numerous times on a single page.</td>
+        <td>The Id is unique in a page, and we can only apply it to one specific element.
 
+        </td>
+        
+      </tr>
+      <tr>
+       
+        <td>The class is assigned to an element and its name starts with "." followed by the name of the class.</td>
+        <td>The name of the Id starts with the "#" symbol followed by a unique id name.</td>
+        
+      </tr>
+      <tr>
+       
+        <td>We can attach multiple class selectors to an element.</td>
+        <td>We can attach only one ID selector to an element.</td>
+        
+      </tr>
+      <tr>
+       
+        <td>Syntax:<br>
+          .class{<br>
+          // declarations of CSS<br>
+          }</td><br>
+        <td>Syntax:<br>
+          #id{<br>
+          // declarations of CSS<br>
+          }</td>
+        
+      </tr>
+</table>
+<br>
+    <p><b>
+       1.Classes are preferred over ids for CSS style selectors because they have a lower specificity, making it easier to override and extend styles. For example, you can use classes to style multiple elements with the same style:
+    </p></b>
     <p>
-      
+      <img src="../images/classvsid-1 code.png" class="square">
+      <br>
+      <img src="../images/classvsid-1 Q.png" class="rectangle">
+      <br>
+      &bull; <b>Output</b>
+      <img src="../images/classvsid-1 A.png" class="rectangle">
     </p>
-    <p>
+
+    <p><b>
+      2.The id selector is used to select the id attribute of an HTML element for selecting a particular element. An id is always unique within the page, so it is chosen to select a single, unique element.
+
+      It is written with the hash character (#), followed by the id of the element.
       
-    </p>
-    <p>
-      
-    </p>
+      The example of the id selector is given as follows:
+   </p></b>
+   <p>
+    <img src="../images/classvsid-2code.png" class="square">
+    <br>
+    <img src="../images/classvsid-2 Q.png" class="rectangle">
+    <br>
+    &bull; <b>Output</b>
+    <img src="../images/classvsin-2 A.png" class="rectangle">
+   </p>
+
+   <p><b>
+    3.We can also style the specific element using the class selector, no matter if it is applied to different elements.
+
+    If we need to specify that only one specific HTML element should be affected, we must use the element name with the class selector.
+    
+    It will be clear from the following example:
+ </p></b>
+ <p>
+  <img src="../images/classvsid-3 code.png" class="square">
+  <br>
+  <img src="../images/classvsid-3 Q.png" class="rectangle">
+  <br>
+  &bull; <b>Output</b>
+  <img src="../images/classvsid-3 A.png" class="rectangle">
+ </p>
+
+ <p><b>
+  4.Multiple classes can be added to a single HTML element, making it easier to group styles and hooks 
+  for JavaScript or automated tests. For example, you can use classes to style and add hooks to a button:
+</p></b>
+<p>
+<img src="../images/classvsid-4 code.png" class="square">
+<br>
+<img src="../images/classvsid-4 Q.png" class="rectangle">
+<br>
+&bull; <b>Output</b>
+<img src="../images/classvsid-4 A.png" class="rectangle">
+</p>
+
   </div>
+
   <div id="footer">
     <div>
     <p>© 2024 M.S. Add “All Rights Reserved”:Maitri Thakor</p>

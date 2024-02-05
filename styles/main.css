@@ -59,6 +59,7 @@ h2 {
   position: static;
   top: 40px;
 }
+
 .navbar {
   align-content: stretch;
   left: 100px;
@@ -92,6 +93,10 @@ ul {
 }
 li {
   text-align: -webkit-match-parent;
+}
+
+li:hover {
+  background-color: whitesmoke;
 }
 
 @media (max-width: 767px) {
